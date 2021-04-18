@@ -2,9 +2,13 @@
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
   <ul>
     {% for item in mainmenu %}
-    <li class="{% if item.url == page.url %}active{% endif %}">
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+    <li class="{% if item.url ==  %}active{% endif %}">
+      	<a href="{{ item.url | relative_url }}">{{ item.name }}</a>
     </li>
     {% endfor %}
+    <div class="call-box-bottom" style="margin-left: 15px;"> 
+    	<a href="/swap" class="button">Swap Now</a>
+    </div>
   </ul>
 </div>
+

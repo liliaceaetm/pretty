@@ -1,12 +1,14 @@
 [
   {
-    "name": "Github",
-    "link": "https://github.com/zerostaticthemes/jekyll-serif-theme",
-    "image": "images/social/github.svg"
-  },
-  {
     "name": "Twitter",
-    "link": "https://twitter.com/zerostaticio",
+    "link": "https://twitter.com/swapshop",
     "image": "images/social/twitter.svg"
+  },
+{
+    "name": "Bitclout-2",
+    "link": "https://bitclout.com/swapshop",
+    "image": "images/social/bitclout-2.png"
   }
 ]
+
+

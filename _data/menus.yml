@@ -1,25 +1,21 @@
 main:
-  - name: "Discord"
-    url: "/discord/"
+  - name: "Philosophy"
+    url: "/philosophy/"
+    weight: 1
+  - name: "Team"
+    url: "/team/"
     weight: 2
-  - name: "Blog"
-    url: "/blog/"
+  - name: "Roadmap"
+    url: "/roadmap/"
+    weight: 2
+  - name: "FAQ"
+    url: "/faq/"
     weight: 3
-  - name: "About"
-    url: "/about/"
+  - name: "Discord"
+    url: "/"
     weight: 4
-  - name: "How To Use SwapShop"
-    url: "/how-to/"
-    weight: 5
-  - name: "Swap Now"
-    url: "/how-now/"
-    weight: 5
-
 
 footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
-    weight: 2
