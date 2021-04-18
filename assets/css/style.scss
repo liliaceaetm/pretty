@@ -3,11 +3,11 @@
 ---
 
 // Colors
-$primary: #E5261F;
+$primary: #0059f7;
 $secondary: #f88379;
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #e5e5e5;
 $steel: #5C5A5A;
 
 // Links
@@ -17,8 +17,9 @@ $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: 'Playfair Display', serif, -apple-system;
+$font-family-base: Roboto Mono;
+$font-family-base-plain: Roboto;
+$font-family-heading: 'Roboto Mono';
 
 // Footer
 $footer-background-color: $primary;
@@ -62,11 +63,11 @@ $sub-footer-text-color: $white;
 @import 'pages/services/page-services-single';
 
 body {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.2;
   font-family: $font-family-base;
   @include media-breakpoint-up(md) {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.3;
   }
 }
